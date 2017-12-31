@@ -1,8 +1,6 @@
 /* connect4.c
- *
- * Kyle Schlanger and Connor Hanify
- * cs313 hw4 - Professor Scharstein
- * Used c4rand.c as a basis for our code
+ * cs313 hw4 - Programming Languages
+ * Professor Scharstein
  */
 
 #include <stdio.h>
@@ -27,7 +25,7 @@ void assert(int cond, char *msg) {
     }
 }
 
-  // seed random number generator based on on current time in microseconds and board state
+// seed random number generator based on on current time in microseconds and board state
 void randseed() {
     struct timeval t1;
     gettimeofday(&t1, NULL);
